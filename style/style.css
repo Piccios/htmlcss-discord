@@ -37,6 +37,8 @@ ul>li {
     padding: 0 2rem;
 }
 
+
+
 button {
     background-color: #FFFFFF;
     border: 2px transparent;
@@ -96,6 +98,8 @@ p.intro {
     font-weight: 700;
 }
 
+
+
 .item-one{
     background-image: url(../img/item1.svg);
     background-size: cover;
@@ -153,7 +157,7 @@ h2 {
 }
 
 .typography p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .image {
@@ -216,6 +220,10 @@ h3 {
     font-size: 1.5rem;
     margin: 0 auto;
     color: #7289d9;
+}
+
+.ita{
+    height: 15px;
 }
 
 section.end{
