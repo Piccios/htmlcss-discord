@@ -61,6 +61,7 @@ button {
 .white-button {
     font-size: 1.3rem;
     font-weight: 500;
+    margin-left: 4rem;
 }
 
 .purle-button {
@@ -75,6 +76,8 @@ button {
     flex-direction: column;
     align-items: center;
     color: white;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     background-color: #255EE9;
     padding: 90px 240px;
 }
@@ -88,7 +91,7 @@ p.intro {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 2rem;
     font-size: 1rem;
     font-weight: 700;
 }
