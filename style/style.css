@@ -55,11 +55,11 @@ button {
     background-color: #23272A;
     color: #FFFFFF;
     padding: 1rem 1rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .white-button {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 500;
     margin-left: 4rem;
 }
@@ -96,6 +96,30 @@ p.intro {
     font-weight: 700;
 }
 
+.item-one{
+    background-image: url(../img/item1.svg);
+    background-size: cover;
+}
+
+.item-two{
+    background-image: url(../img/item2.svg);
+    background-size: cover;
+}
+
+.item-three{
+    background-image: url(../img/item3.svg);
+    background-size: cover;
+}
+
+.huge {
+    flex-wrap: wrap;
+    width: 950px;
+    height: 500px;
+    flex-direction: column;
+    margin: 0 auto;
+    background-image: url(../img/item4-big.svg);
+    background-size: cover;
+}
 
 .features {
     display: flex;
@@ -137,7 +161,6 @@ h2 {
     width: 450px;
     height: 350px;
     border-radius: 7px;
-    background-color: #292841;
     flex-shrink: 0;
     color: #FFFFFF;
     justify-content: center;
@@ -151,13 +174,7 @@ h2 {
     margin: 0 auto;
 }
 
-.huge {
-    flex-wrap: wrap;
-    width: 850px;
-    height: 450px;
-    flex-direction: column;
-    margin: 0 auto;
-}
+
 footer{
     padding: 2rem;
     background-color: #23272a;
